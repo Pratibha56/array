@@ -31,6 +31,7 @@ public class subarray {
             int sum = 0;
             for (int j = i; j < number.length; j++) {
                 sum = sum + number[j];
+                // comapare
                 minsum = Math.min(minsum, sum);
                 maxsum = Math.max(maxsum, sum);
             }
